@@ -52,9 +52,9 @@ public class Main {
     actions.add("4) End game");
 
     //4.g
-    GameMenu menu = new GameMenu(actions);
+    GameMenu myMenu = new GameMenu(actions);
 
     //4.i
-    menu.displayMenu(); 
+    myMenu.displayMenu(); 
   }
 }
