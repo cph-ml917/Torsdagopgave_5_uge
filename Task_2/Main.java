@@ -30,6 +30,7 @@ import java.util.Scanner;
 //2.a
 public class Main{
 	public static void main(String[] args){
+		
 		int retirementAge = 67;
 		
 		//2.b
@@ -54,6 +55,6 @@ public class Main{
 		//2.h
 		int timeToRetire = retirementAge - age;
 		System.out.println("You have " + timeToRetire + " years until retirement");
-		
+
 	}	
 }
